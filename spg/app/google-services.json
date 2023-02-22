@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "795613033131",
+    "project_id": "room-management-e5673",
+    "storage_bucket": "room-management-e5673.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:795613033131:android:9ea663cf4a1ac86429fdee",
+        "android_client_info": {
+          "package_name": "com.example.roommanegment"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "795613033131-5hfl7pehprmi487r27v4i6fnchk8bdgd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC7YeaBeYYo-gTCXFruV8wqmjIAA-w_vVk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "795613033131-5hfl7pehprmi487r27v4i6fnchk8bdgd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Vadodra_Utara_Alocation</string>
+    <string-array name="Floor">
+        <item>Select The Floor</item>
+        <item>Floor 1</item>
+        <item>Floor 2</item>
+        <item>Floor 3</item>
+    </string-array>
+</resources>

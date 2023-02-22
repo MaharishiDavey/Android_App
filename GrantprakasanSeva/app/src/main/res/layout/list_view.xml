@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:clickable="true"
+    android:onClick="opentext"
+    android:id="@+id/Rl">
+
+    <LinearLayout
+        android:id="@+id/layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="@dimen/list_item_height"
+        android:orientation="horizontal"
+        android:padding="16dp">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="@dimen/list_item_height"
+            android:layout_height="@dimen/list_item_height"
+            android:src="@mipmap/ic_launcher" />
+
+        <LinearLayout
+            android:id="@+id/text_container"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:paddingLeft="16dp">
+
+            <TextView
+                android:id="@+id/bkt_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="bottom"
+                android:text="bkt_name"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/bkt_smk"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/bkt_name"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:text="bkt_smk"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/bkt_num"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/bkt_num"
+                android:text="9601290000"
+                android:layout_weight="1"
+                android:gravity="top"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:textColor="@color/black" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <ImageButton
+        android:id="@+id/down"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@id/layout"
+        android:layout_alignBottom="@id/layout"
+        android:background="@color/white"
+        android:src="@drawable/ic_baseline_arrow_drop_down_24" />
+
+    <LinearLayout
+        android:id="@+id/hidtxt_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/layout"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/hidtxt1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="hidden Text 1"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/hidtxt2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="hidden Text 2"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/hidtxt3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="hidden Text 3"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:id="@+id/hidtxt4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="hidden Text 4"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:id="@+id/hidtxt5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="hidden Text 5"
+            android:textColor="@color/black"/>
+
+
+    </LinearLayout>
+
+
+
+
+
+
+</RelativeLayout>
